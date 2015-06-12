@@ -32,29 +32,12 @@
   (str/join (assoc (assoc (vec (repeat size \space))  pos "X") (- (- size 1) pos) "X"))
   )
 
-(defn dec-sequence [size]
-  (range size (- 1 (rem size 2)) -1)
-  )
-
-(defn dec-sequence [size]
-  (range size (- 1 (rem size 2)) -1)
-  )
-
 (defn compute-sequence [size]
   (concat (range (quot size 2) (- 0 (mod size 2)) -1) (range 1 (+ (quot size 2) 1)))
   )
 
 (defn make-x [size]
-  (range)
-  (if (< size 3) (println (line-x size))
-                 ;;    ( (println (line-x size))
-                 ;      (println (make-x (- size 2)))
-                 ;     (println (line-x size)))
-                 )
-
-  ;  (println (line-x size))
-  ;  (make-x (- size 2))
-  ;  (println (line-x size))
+  (apply print (map line-at-pos (range size) (repeat size size)))
   )
 
 ;(println (line-x 3))

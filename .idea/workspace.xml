@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6d181c-a2bb-4e27-bae1-1f2c062f6827" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farmlogs/interview.clj" afterPath="$PROJECT_DIR$/src/farmlogs/interview.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" afterPath="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="make-x.iws" />
@@ -30,8 +33,8 @@
           <file leaf-file-name="interview.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.33248082">
-                  <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+                <state vertical-scroll-proportion="0.5396419">
+                  <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -44,8 +47,8 @@
           <file leaf-file-name="interview_test.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6930946">
-                  <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.769821">
+                  <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -67,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/make_x/core_test.clj" />
-        <option value="$PROJECT_DIR$/src/farmlogs/interview.clj" />
         <option value="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" />
+        <option value="$PROJECT_DIR$/src/farmlogs/interview.clj" />
       </list>
     </option>
   </component>
@@ -563,7 +566,7 @@
       <updated>1434051152047</updated>
       <workItem from="1434051153368" duration="554000" />
       <workItem from="1434051780208" duration="103000" />
-      <workItem from="1434051914156" duration="9461000" />
+      <workItem from="1434051914156" duration="10150000" />
     </task>
     <task id="LOCAL-00001" summary="Initial version">
       <created>1434051530283</created>
@@ -589,11 +592,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434111797272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Switched to more idiomatic line generator function.">
+      <created>1434111829174</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1434111829174</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10118000" />
+    <option name="totallyTimeSpent" value="10807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="55" width="1216" height="716" extended-state="0" />
@@ -639,7 +648,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial version" />
     <MESSAGE value="line-x with extensive unit tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="line-x with extensive unit tests" />
+    <MESSAGE value="Switched to more idiomatic line generator function." />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched to more idiomatic line generator function." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,18 +724,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
+    <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33248082">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.769821">
+          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
+    <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6930946">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5396419">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

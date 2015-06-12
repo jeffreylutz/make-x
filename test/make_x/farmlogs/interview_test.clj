@@ -57,3 +57,4 @@
     (is (= "X   X" (line-at-pos 0 5)))))
 
 (line-at-pos-test-5)
+(make-x 5)
