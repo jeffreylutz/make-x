@@ -4,7 +4,7 @@
 
 (deftest line-x-size-0
   (testing "line-x size 0."
-    (is (= "\n" (line-x 0)))
+    (is (= "" (line-x 0)))
     )
   )
 
@@ -32,8 +32,28 @@
     )
   )
 
-(line-x-size-0)
-(line-x-size-1)
-(line-x-size-2)
-(line-x-size-3)
-(line-x-size-10)
+(deftest compute-seq-0
+  (testing "compute-sequence 0."
+    (is (= '() (compute-sequence 0))))
+  )
+
+(deftest compute-seq-1
+  (testing "compute-sequence 1."
+    (is (= '(1) (compute-sequence 1))))
+  )
+
+(deftest compute-seq-2
+  (testing "compute-sequence 2."
+    (is (= '(2 2) (compute-sequence 2))))
+  )
+
+(deftest compute-seq-3
+  (testing "compute-sequence 3."
+    (is (= '(2 1 2) (compute-sequence 3))))
+  )
+
+(deftest line-at-pos-test-5
+  (testing "test"
+    (is (= "X   X" (line-at-pos 0 5)))))
+
+(line-at-pos-test-5)
