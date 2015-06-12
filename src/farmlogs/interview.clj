@@ -22,22 +22,24 @@
 ; X  X
 
 (defn line-at-pos [pos size]
-    (str
-      (str/join
+  (str
+    (str/join
+      (assoc
         (assoc
-          (assoc
-            (vec (repeat size \space) )            ; Create vector of \space of size of size
-            pos "X")                                        ; Replace space with 'X' from left side position
-          (- (- size 1) pos) "X")                           ; Replace space with 'X' from right side position
-        )                                                   ; collapse vector of chars back to string
-      "\n")                                                 ; append newline to end of string
+          (vec (repeat size \space))                        ; Create vector of \space of size of size
+          pos "X")                                          ; Replace space with 'X' from left side position
+        (- (- size 1) pos) "X")                             ; Replace space with 'X' from right side position
+      )                                                     ; collapse vector of chars back to string
+    )                                                       ; append newline to end of string
   )
 
 (defn make-x [size]
-  (apply print
-         (map line-at-pos (range size) (repeat size size))
-         )
+  (
+    doseq [i (map line-at-pos (range size) (repeat size size))]
+    (println i)
+    )
   )
+
 (println "Print 0")
 (make-x 0)
 (println "\nPrint 1")

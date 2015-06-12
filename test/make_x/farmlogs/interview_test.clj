@@ -4,24 +4,24 @@
 
 (deftest line-at-pos-test-0-5
   (testing "test"
-    (is (= "X   X\n" (line-at-pos 0 5)))))
+    (is (= "X   X" (line-at-pos 0 5)))))
 
 (deftest line-at-pos-test-1-5
   (testing "test"
-    (is (= " X X \n" (line-at-pos 1 5)))))
+    (is (= " X X " (line-at-pos 1 5)))))
 
 (deftest line-at-pos-test-2-5
   (testing "test"
-    (is (= "  X  \n" (line-at-pos 2 5)))))
+    (is (= "  X  " (line-at-pos 2 5)))))
 
 
 (deftest line-at-pos-test-0-1
   (testing "test"
-    (is (= "X\n" (line-at-pos 0 1)))))
+    (is (= "X" (line-at-pos 0 1)))))
 
 (deftest line-at-pos-test-1-2
   (testing "test"
-    (is (= "XX\n" (line-at-pos 1 2)))))
+    (is (= "XX" (line-at-pos 1 2)))))
 
 (line-at-pos-test-0-5)
 (line-at-pos-test-1-5)
