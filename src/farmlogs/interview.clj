@@ -21,28 +21,30 @@
 ; X X
 ; X  X
 
-; (repeat 1 " ") ; [" "]
-; (repeat 3 " ") ; [" ", " ", " "]
-
-(defn line-x [size]
-  (if (< size 1) "" (if (< size 2) "X\n" (if (< size 3) "XX\n" (str "X" (apply str (repeat (- size 2) " ")) "X\n"))))
-  )
-
 (defn line-at-pos [pos size]
-  (str/join (assoc (assoc (vec (repeat size \space))  pos "X") (- (- size 1) pos) "X"))
-  )
-
-(defn compute-sequence [size]
-  (concat (range (quot size 2) (- 0 (mod size 2)) -1) (range 1 (+ (quot size 2) 1)))
+    (str
+      (str/join
+        (assoc
+          (assoc
+            (vec (repeat size \space) )            ; Create vector of \space of size of size
+            pos "X")                                        ; Replace space with 'X' from left side position
+          (- (- size 1) pos) "X")                           ; Replace space with 'X' from right side position
+        )                                                   ; collapse vector of chars back to string
+      "\n")                                                 ; append newline to end of string
   )
 
 (defn make-x [size]
-  (apply print (map line-at-pos (range size) (repeat size size)))
+  (apply print
+         (map line-at-pos (range size) (repeat size size))
+         )
   )
-
-;(println (line-x 3))
-;(make-x 0)
-;(make-x 1)
-;(make-x 2)
-;(make-x 3)
-;(make-x 4)
+(println "Print 0")
+(make-x 0)
+(println "\nPrint 1")
+(make-x 1)
+(println "\nPrint 2")
+(make-x 2)
+(println "\nPrint 3")
+(make-x 3)
+(println "\nPrint 4")
+(make-x 4)
