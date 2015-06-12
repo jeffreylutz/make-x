@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c6d181c-a2bb-4e27-bae1-1f2c062f6827" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farmlogs/interview.clj" afterPath="$PROJECT_DIR$/src/farmlogs/interview.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" afterPath="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -226,10 +223,10 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -581,7 +578,7 @@
       <updated>1434051152047</updated>
       <workItem from="1434051153368" duration="554000" />
       <workItem from="1434051780208" duration="103000" />
-      <workItem from="1434051914156" duration="13250000" />
+      <workItem from="1434051914156" duration="13443000" />
     </task>
     <task id="LOCAL-00001" summary="Initial version">
       <created>1434051530283</created>
@@ -619,11 +616,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434112595419</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Cleaned up code and added print of a number of cases: 0 thru 4">
+      <created>1434115821552</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1434115821552</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13907000" />
+    <option name="totallyTimeSpent" value="14100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="55" width="1216" height="716" extended-state="0" />
@@ -637,7 +640,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18739353" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -671,7 +674,8 @@
     <MESSAGE value="line-x with extensive unit tests" />
     <MESSAGE value="Switched to more idiomatic line generator function." />
     <MESSAGE value="Updated make-x to use line-at-pos()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated make-x to use line-at-pos()" />
+    <MESSAGE value="Cleaned up code and added print of a number of cases: 0 thru 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up code and added print of a number of cases: 0 thru 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
