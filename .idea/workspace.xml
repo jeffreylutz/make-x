@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c6d181c-a2bb-4e27-bae1-1f2c062f6827" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/farmlogs/interview.clj" afterPath="$PROJECT_DIR$/src/farmlogs/interview.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" afterPath="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="make-x.iws" />
@@ -33,8 +31,8 @@
           <file leaf-file-name="interview.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6728188">
-                  <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.42785236">
+                  <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -47,8 +45,8 @@
           <file leaf-file-name="interview_test.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6291946">
-                  <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.5285235">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -70,8 +68,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/make_x/core_test.clj" />
-        <option value="$PROJECT_DIR$/src/farmlogs/interview.clj" />
         <option value="$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj" />
+        <option value="$PROJECT_DIR$/src/farmlogs/interview.clj" />
       </list>
     </option>
   </component>
@@ -459,7 +457,7 @@
       <workItem from="1434051153368" duration="554000" />
       <workItem from="1434051780208" duration="103000" />
       <workItem from="1434051914156" duration="14092000" />
-      <workItem from="1434119124457" duration="6324000" />
+      <workItem from="1434119124457" duration="8559000" />
     </task>
     <task id="LOCAL-00001" summary="Initial version">
       <created>1434051530283</created>
@@ -515,11 +513,17 @@
       <option name="project" value="LOCAL" />
       <updated>1434116531036</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Cleaned up printing of multi-line characters.">
+      <created>1434137321570</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1434137321570</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21073000" />
+    <option name="totallyTimeSpent" value="23308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="35" width="1216" height="716" extended-state="0" />
@@ -569,14 +573,15 @@
     <MESSAGE value="Updated make-x to use line-at-pos()" />
     <MESSAGE value="Cleaned up code and added print of a number of cases: 0 thru 4" />
     <MESSAGE value="Push change to github." />
-    <option name="LAST_COMMIT_MESSAGE" value="Push change to github." />
+    <MESSAGE value="Cleaned up printing of multi-line characters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up printing of multi-line characters." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/farmlogs/interview.clj</url>
-          <line>38</line>
+          <line>35</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -665,16 +670,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6291946">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5285235">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6728188">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.42785236">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
           <folding />
         </state>
       </provider>
