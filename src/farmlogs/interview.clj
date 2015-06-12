@@ -25,7 +25,7 @@
   (-> (repeat size \space)
       (vec)                                                 ;Create vector of \space of size of size
       (assoc pos "X")                                       ;Replace space with 'X' from left size position
-      (assoc (- (- size 1) pos) "X")                        ;Replace space with 'X' from right side position
+      (assoc (- (dec size) pos) "X")                        ;Replace space with 'X' from right side position
       (str/join)                                            ;Collapse vector of chars back to string
       )
   )

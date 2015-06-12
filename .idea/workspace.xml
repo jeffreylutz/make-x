@@ -31,8 +31,8 @@
           <file leaf-file-name="interview.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42785236">
-                  <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.598916">
+                  <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -45,7 +45,7 @@
           <file leaf-file-name="interview_test.clj" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5285235">
+                <state vertical-scroll-proportion="0.85365856">
                   <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
@@ -81,8 +81,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="35" />
+    <option name="x" value="11" />
+    <option name="y" value="79" />
     <option name="width" value="1216" />
     <option name="height" value="716" />
   </component>
@@ -457,7 +457,7 @@
       <workItem from="1434051153368" duration="554000" />
       <workItem from="1434051780208" duration="103000" />
       <workItem from="1434051914156" duration="14092000" />
-      <workItem from="1434119124457" duration="8559000" />
+      <workItem from="1434119124457" duration="9907000" />
     </task>
     <task id="LOCAL-00001" summary="Initial version">
       <created>1434051530283</created>
@@ -519,14 +519,20 @@
       <option name="project" value="LOCAL" />
       <updated>1434137321570</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Switched from nested calls for line-at-pos() to thread first for readability sake.">
+      <created>1434141157559</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1434141157559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23308000" />
+    <option name="totallyTimeSpent" value="24656000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="35" width="1216" height="716" extended-state="0" />
+    <frame x="11" y="79" width="1216" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -537,7 +543,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REPL" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18739353" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36378205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36378205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -574,7 +580,8 @@
     <MESSAGE value="Cleaned up code and added print of a number of cases: 0 thru 4" />
     <MESSAGE value="Push change to github." />
     <MESSAGE value="Cleaned up printing of multi-line characters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaned up printing of multi-line characters." />
+    <MESSAGE value="Switched from nested calls for line-at-pos() to thread first for readability sake." />
+    <option name="LAST_COMMIT_MESSAGE" value="Switched from nested calls for line-at-pos() to thread first for readability sake." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/make_x/farmlogs/interview_test.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5285235">
+        <state vertical-scroll-proportion="0.85365856">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
@@ -678,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/farmlogs/interview.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42785236">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.598916">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
           <folding />
         </state>
       </provider>
